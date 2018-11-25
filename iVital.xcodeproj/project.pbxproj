@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BA856821AB1F160019285E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA856721AB1F160019285E /* AppDelegate.swift */; };
+		26BA856A21AB1F160019285E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA856921AB1F160019285E /* ViewController.swift */; };
+		26BA856D21AB1F160019285E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BA856B21AB1F160019285E /* Main.storyboard */; };
+		26BA856F21AB1F180019285E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BA856E21AB1F180019285E /* Assets.xcassets */; };
+		26BA857221AB1F180019285E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BA857021AB1F180019285E /* LaunchScreen.storyboard */; };
+		26BA857D21AB1F180019285E /* iVitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA857C21AB1F180019285E /* iVitalTests.swift */; };
+		26BA858821AB1F180019285E /* iVitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA858721AB1F180019285E /* iVitalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26BA857921AB1F180019285E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BA855C21AB1F160019285E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BA856321AB1F160019285E;
+			remoteInfo = iVital;
+		};
+		26BA858421AB1F180019285E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BA855C21AB1F160019285E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BA856321AB1F160019285E;
+			remoteInfo = iVital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BA856421AB1F160019285E /* iVital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iVital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BA856721AB1F160019285E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26BA856921AB1F160019285E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26BA856C21AB1F160019285E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26BA856E21AB1F180019285E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26BA857121AB1F180019285E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26BA857321AB1F180019285E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BA857821AB1F180019285E /* iVitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BA857C21AB1F180019285E /* iVitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iVitalTests.swift; sourceTree = "<group>"; };
+		26BA857E21AB1F180019285E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BA858321AB1F180019285E /* iVitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BA858721AB1F180019285E /* iVitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iVitalUITests.swift; sourceTree = "<group>"; };
+		26BA858921AB1F180019285E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BA856121AB1F160019285E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA857521AB1F180019285E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA858021AB1F180019285E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BA855B21AB1F160019285E = {
+			isa = PBXGroup;
+			children = (
+				26BA856621AB1F160019285E /* iVital */,
+				26BA857B21AB1F180019285E /* iVitalTests */,
+				26BA858621AB1F180019285E /* iVitalUITests */,
+				26BA856521AB1F160019285E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26BA856521AB1F160019285E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BA856421AB1F160019285E /* iVital.app */,
+				26BA857821AB1F180019285E /* iVitalTests.xctest */,
+				26BA858321AB1F180019285E /* iVitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BA856621AB1F160019285E /* iVital */ = {
+			isa = PBXGroup;
+			children = (
+				26BA856721AB1F160019285E /* AppDelegate.swift */,
+				26BA856921AB1F160019285E /* ViewController.swift */,
+				26BA856B21AB1F160019285E /* Main.storyboard */,
+				26BA856E21AB1F180019285E /* Assets.xcassets */,
+				26BA857021AB1F180019285E /* LaunchScreen.storyboard */,
+				26BA857321AB1F180019285E /* Info.plist */,
+			);
+			path = iVital;
+			sourceTree = "<group>";
+		};
+		26BA857B21AB1F180019285E /* iVitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BA857C21AB1F180019285E /* iVitalTests.swift */,
+				26BA857E21AB1F180019285E /* Info.plist */,
+			);
+			path = iVitalTests;
+			sourceTree = "<group>";
+		};
+		26BA858621AB1F180019285E /* iVitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26BA858721AB1F180019285E /* iVitalUITests.swift */,
+				26BA858921AB1F180019285E /* Info.plist */,
+			);
+			path = iVitalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BA856321AB1F160019285E /* iVital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BA858C21AB1F180019285E /* Build configuration list for PBXNativeTarget "iVital" */;
+			buildPhases = (
+				26BA856021AB1F160019285E /* Sources */,
+				26BA856121AB1F160019285E /* Frameworks */,
+				26BA856221AB1F160019285E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iVital;
+			productName = iVital;
+			productReference = 26BA856421AB1F160019285E /* iVital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26BA857721AB1F180019285E /* iVitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BA858F21AB1F180019285E /* Build configuration list for PBXNativeTarget "iVitalTests" */;
+			buildPhases = (
+				26BA857421AB1F180019285E /* Sources */,
+				26BA857521AB1F180019285E /* Frameworks */,
+				26BA857621AB1F180019285E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BA857A21AB1F180019285E /* PBXTargetDependency */,
+			);
+			name = iVitalTests;
+			productName = iVitalTests;
+			productReference = 26BA857821AB1F180019285E /* iVitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26BA858221AB1F180019285E /* iVitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BA859221AB1F180019285E /* Build configuration list for PBXNativeTarget "iVitalUITests" */;
+			buildPhases = (
+				26BA857F21AB1F180019285E /* Sources */,
+				26BA858021AB1F180019285E /* Frameworks */,
+				26BA858121AB1F180019285E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BA858521AB1F180019285E /* PBXTargetDependency */,
+			);
+			name = iVitalUITests;
+			productName = iVitalUITests;
+			productReference = 26BA858321AB1F180019285E /* iVitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26BA855C21AB1F160019285E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lambda Pledge Class";
+				TargetAttributes = {
+					26BA856321AB1F160019285E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					26BA857721AB1F180019285E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 26BA856321AB1F160019285E;
+					};
+					26BA858221AB1F180019285E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 26BA856321AB1F160019285E;
+					};
+				};
+			};
+			buildConfigurationList = 26BA855F21AB1F160019285E /* Build configuration list for PBXProject "iVital" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26BA855B21AB1F160019285E;
+			productRefGroup = 26BA856521AB1F160019285E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26BA856321AB1F160019285E /* iVital */,
+				26BA857721AB1F180019285E /* iVitalTests */,
+				26BA858221AB1F180019285E /* iVitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BA856221AB1F160019285E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA857221AB1F180019285E /* LaunchScreen.storyboard in Resources */,
+				26BA856F21AB1F180019285E /* Assets.xcassets in Resources */,
+				26BA856D21AB1F160019285E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA857621AB1F180019285E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA858121AB1F180019285E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BA856021AB1F160019285E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA856A21AB1F160019285E /* ViewController.swift in Sources */,
+				26BA856821AB1F160019285E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA857421AB1F180019285E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA857D21AB1F180019285E /* iVitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BA857F21AB1F180019285E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA858821AB1F180019285E /* iVitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BA857A21AB1F180019285E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BA856321AB1F160019285E /* iVital */;
+			targetProxy = 26BA857921AB1F180019285E /* PBXContainerItemProxy */;
+		};
+		26BA858521AB1F180019285E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BA856321AB1F160019285E /* iVital */;
+			targetProxy = 26BA858421AB1F180019285E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26BA856B21AB1F160019285E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BA856C21AB1F160019285E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26BA857021AB1F180019285E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BA857121AB1F180019285E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26BA858A21AB1F180019285E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26BA858B21AB1F180019285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26BA858D21AB1F180019285E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU62WF75ZQ;
+				INFOPLIST_FILE = iVital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lambdapledgeclass.iVital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26BA858E21AB1F180019285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU62WF75ZQ;
+				INFOPLIST_FILE = iVital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lambdapledgeclass.iVital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26BA859021AB1F180019285E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU62WF75ZQ;
+				INFOPLIST_FILE = iVitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lambdapledgeclass.iVitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iVital.app/iVital";
+			};
+			name = Debug;
+		};
+		26BA859121AB1F180019285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU62WF75ZQ;
+				INFOPLIST_FILE = iVitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lambdapledgeclass.iVitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iVital.app/iVital";
+			};
+			name = Release;
+		};
+		26BA859321AB1F180019285E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU62WF75ZQ;
+				INFOPLIST_FILE = iVitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lambdapledgeclass.iVitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iVital;
+			};
+			name = Debug;
+		};
+		26BA859421AB1F180019285E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU62WF75ZQ;
+				INFOPLIST_FILE = iVitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lambdapledgeclass.iVitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iVital;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BA855F21AB1F160019285E /* Build configuration list for PBXProject "iVital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA858A21AB1F180019285E /* Debug */,
+				26BA858B21AB1F180019285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BA858C21AB1F180019285E /* Build configuration list for PBXNativeTarget "iVital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA858D21AB1F180019285E /* Debug */,
+				26BA858E21AB1F180019285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BA858F21AB1F180019285E /* Build configuration list for PBXNativeTarget "iVitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA859021AB1F180019285E /* Debug */,
+				26BA859121AB1F180019285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BA859221AB1F180019285E /* Build configuration list for PBXNativeTarget "iVitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BA859321AB1F180019285E /* Debug */,
+				26BA859421AB1F180019285E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26BA855C21AB1F160019285E /* Project object */;
+}
