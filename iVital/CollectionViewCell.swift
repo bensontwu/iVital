@@ -6,4 +6,16 @@
 //  Copyright © 2018 Lambda Pledge Class. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class CollectionViewCell: UICollectionViewCell {
+    @IBOutlet var vitalImage: UIImageView!
+    @IBOutlet var vitalLabel: UILabel!
+    @IBOutlet var vitalButton: UIButton!
+    
+    func displayContent( image: UIImage, number: String, title: String ) {
+        vitalImage.image = image
+        vitalLabel.text = title
+        vitalButton.setTitle(number, for: UIControl.State.normal)
+    }
+}
