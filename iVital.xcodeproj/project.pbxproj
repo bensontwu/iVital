@@ -19,7 +19,6 @@
 		26BA859C21AB35420019285E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA859B21AB35420019285E /* DataStore.swift */; };
 		26BA85A221AB62100019285E /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA85A121AB62100019285E /* GraphViewController.swift */; };
 		26BA85A621AB7DEB0019285E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA85A521AB7DEB0019285E /* ProfileViewController.swift */; };
-		26BA85A821AB81A40019285E /* PollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BA85A721AB81A40019285E /* PollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		26BA859B21AB35420019285E /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		26BA85A121AB62100019285E /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		26BA85A521AB7DEB0019285E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		26BA85A721AB81A40019285E /* PollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,6 @@
 				26BA859B21AB35420019285E /* DataStore.swift */,
 				26BA85A121AB62100019285E /* GraphViewController.swift */,
 				26BA85A521AB7DEB0019285E /* ProfileViewController.swift */,
-				26BA85A721AB81A40019285E /* PollectionViewCell.swift */,
 			);
 			path = iVital;
 			sourceTree = "<group>";
@@ -281,7 +278,6 @@
 				26BA85A621AB7DEB0019285E /* ProfileViewController.swift in Sources */,
 				26BA859C21AB35420019285E /* DataStore.swift in Sources */,
 				26BA859621AB2AB80019285E /* CollectionViewCell.swift in Sources */,
-				26BA85A821AB81A40019285E /* PollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

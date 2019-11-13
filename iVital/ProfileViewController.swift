@@ -8,9 +8,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    @IBOutlet var pollectionView: UICollectionView!
+class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +20,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         return list.count
     }
     
-    let list = [ "Age", "Weight" ]
+    let list = [ "Resting Heart Rate", "Body Temperature", "Normal Blood Pressure", "Normal Breathing Rate", "Age", "Weight" ]
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "table_cell")
@@ -30,20 +28,6 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         
         return cell
         
-    }
-    
-    let cell_list = [ "Resting Heart Rate", "Normal Body Temperature", "Normal Blood Pressure", "Normal Respitory Rate" ]
-    
-    func collectionView(_ pollectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return cell_list.count
-    }
-    
-    func collectionView(_ pollectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = pollectionView.dequeueReusableCell(withReuseIdentifier: "pollectionViewCell", for: indexPath ) as! PollectionViewCell
-        
-        cell.displayContent( text: cell_list[indexPath.row] )
-            
-        return cell
     }
 
     /*
